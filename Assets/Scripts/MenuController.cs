@@ -28,6 +28,8 @@ public class MenuController : MonoBehaviour
     private void Start()
     {
 
+        AjustesGuardados.Aplicar();
+
         posicionFinalFondo = fondoBotones.anchoredPosition;
 
         posicionInicialFondo =
