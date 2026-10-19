@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: b084ff8fabc99e0489604e8c0a197775
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3447480237970829919
+    second: '- Seleccione un nivel -_0'
+  - first:
+      213: -1346185636953777859
+    second: '- Seleccione un nivel -_1'
+  - first:
+      213: -8971530205411026030
+    second: '- Seleccione un nivel -_2'
+  - first:
+      213: -1135641034763895569
+    second: '- Seleccione un nivel -_3'
+  - first:
+      213: -1605331623540477064
+    second: '- Seleccione un nivel -_4'
+  - first:
+      213: 8757053118849365842
+    second: '- Seleccione un nivel -_5'
+  - first:
+      213: 4145007422454140781
+    second: '- Seleccione un nivel -_6'
+  - first:
+      213: -4666806032095705285
+    second: '- Seleccione un nivel -_7'
+  - first:
+      213: 1991377919602660073
+    second: '- Seleccione un nivel -_8'
+  - first:
+      213: 1163058202041143371
+    second: '- Seleccione un nivel -_9'
+  - first:
+      213: -6202385333724645107
+    second: '- Seleccione un nivel -_10'
+  - first:
+      213: -3701285522407767527
+    second: '- Seleccione un nivel -_11'
+  - first:
+      213: -3955618306542717940
+    second: '- Seleccione un nivel -_12'
+  - first:
+      213: 2508007972110369330
+    second: '- Seleccione un nivel -_13'
+  - first:
+      213: -5303001991740278045
+    second: '- Seleccione un nivel -_14'
+  - first:
+      213: -2094410628190645517
+    second: '- Seleccione un nivel -_15'
+  - first:
+      213: 4274313085890799130
+    second: '- Seleccione un nivel -_16'
+  - first:
+      213: -2404753968775696973
+    second: '- Seleccione un nivel -_17'
+  - first:
+      213: -3315668214277080154
+    second: '- Seleccione un nivel -_18'
+  - first:
+      213: -2408528158677841555
+    second: '- Seleccione un nivel -_19'
+  - first:
+      213: 7331041194538924681
+    second: '- Seleccione un nivel -_20'
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_0'
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 0
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adc1953df61820d0800000000000000
+      internalID: -3447480237970829919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_1'
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1
+        width: 24
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3913abab43615de0800000000000000
+      internalID: -1346185636953777859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_2'
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 60
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bd9c6bfc8be7380800000000000000
+      internalID: -8971530205411026030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_3'
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 60
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec7a8aee746d30f0800000000000000
+      internalID: -1135641034763895569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_4'
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1
+        width: 23
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8733b20d467b8b9e0800000000000000
+      internalID: -1605331623540477064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_5'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2573e3c2a6d478970800000000000000
+      internalID: 8757053118849365842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_6'
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f8cbe1a46068930800000000000000
+      internalID: 4145007422454140781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_7'
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37094db3ac2c3fb0800000000000000
+      internalID: -4666806032095705285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_8'
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e21977caabc2ab10800000000000000
+      internalID: 1991377919602660073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_9'
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 0
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4054c9c543042010800000000000000
+      internalID: 1163058202041143371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_10'
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09ff3f8663bce9a0800000000000000
+      internalID: -6202385333724645107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_11'
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 0
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912c6987d6462acc0800000000000000
+      internalID: -3701285522407767527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_12'
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c043d73ab12da19c0800000000000000
+      internalID: -3955618306542717940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_13'
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2328c7f66fb3ec220800000000000000
+      internalID: 2508007972110369330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_14'
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 0
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eab127f8c3f766b0800000000000000
+      internalID: -5303001991740278045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_15'
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 1
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2d4ec51a82fe2e0800000000000000
+      internalID: -2094410628190645517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_16'
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a162357fa19615b30800000000000000
+      internalID: 4274313085890799130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_17'
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 1
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bde9ee910990aed0800000000000000
+      internalID: -2404753968775696973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_18'
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 1
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6abf5f683516cf1d0800000000000000
+      internalID: -3315668214277080154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_19'
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 0
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d694b7e8660339ed0800000000000000
+      internalID: -2408528158677841555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '- Seleccione un nivel -_20'
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 28
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a7f3aff171db560800000000000000
+      internalID: 7331041194538924681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      '- Seleccione un nivel -_0': -3447480237970829919
+      '- Seleccione un nivel -_1': -1346185636953777859
+      '- Seleccione un nivel -_10': -6202385333724645107
+      '- Seleccione un nivel -_11': -3701285522407767527
+      '- Seleccione un nivel -_12': -3955618306542717940
+      '- Seleccione un nivel -_13': 2508007972110369330
+      '- Seleccione un nivel -_14': -5303001991740278045
+      '- Seleccione un nivel -_15': -2094410628190645517
+      '- Seleccione un nivel -_16': 4274313085890799130
+      '- Seleccione un nivel -_17': -2404753968775696973
+      '- Seleccione un nivel -_18': -3315668214277080154
+      '- Seleccione un nivel -_19': -2408528158677841555
+      '- Seleccione un nivel -_2': -8971530205411026030
+      '- Seleccione un nivel -_20': 7331041194538924681
+      '- Seleccione un nivel -_3': -1135641034763895569
+      '- Seleccione un nivel -_4': -1605331623540477064
+      '- Seleccione un nivel -_5': 8757053118849365842
+      '- Seleccione un nivel -_6': 4145007422454140781
+      '- Seleccione un nivel -_7': -4666806032095705285
+      '- Seleccione un nivel -_8': 1991377919602660073
+      '- Seleccione un nivel -_9': 1163058202041143371
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
