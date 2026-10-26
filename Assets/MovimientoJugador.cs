@@ -48,6 +48,9 @@ public class MovimientoJugador : MonoBehaviour
     private bool haciendoDash = false;
     private bool esperandoDash = false;
 
+    // Velocidad vertical del frame anterior (para el sonido de aterrizaje)
+    private float velocidadYPrevia = 0f;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -61,6 +64,8 @@ public class MovimientoJugador : MonoBehaviour
         Mover();
         Saltar();
         Dash();
+
+        velocidadYPrevia = rb.linearVelocity.y;
     }
 
     private void VerificarSuelo()
@@ -77,6 +82,12 @@ public class MovimientoJugador : MonoBehaviour
         if (enSuelo && !estabaEnSuelo)
         {
             cargaDobleSalto = 1;
+
+            // Solo suena si venia cayendo de verdad
+            if (velocidadYPrevia < -3f)
+            {
+                AudioManager.Aterrizar();
+            }
 
             if (!esperandoDash)
             {
@@ -113,6 +124,8 @@ public class MovimientoJugador : MonoBehaviour
         // Salto normal
         if (Keyboard.current.sKey.wasPressedThisFrame && enSuelo)
         {
+            AudioManager.Salto();
+
             rb.linearVelocity = new Vector2(
                 rb.linearVelocity.x,
                 fuerzaSalto
@@ -125,6 +138,8 @@ public class MovimientoJugador : MonoBehaviour
                  && cargaDobleSalto == 1)
         {
             cargaDobleSalto = 0;
+
+            AudioManager.DobleSalto();
 
             rb.linearVelocity = new Vector2(
                 rb.linearVelocity.x,
@@ -154,6 +169,8 @@ public class MovimientoJugador : MonoBehaviour
             if (direccion != 0f)
             {
                 cargaDash = 0;
+
+                AudioManager.Dash();
 
                 StartCoroutine(EjecutarDash(direccion));
             }
