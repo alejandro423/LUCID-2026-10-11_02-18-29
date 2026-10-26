@@ -133,16 +133,19 @@ public class MenuController : MonoBehaviour
 
     public void Jugar()
     {
+        AudioManager.Clic();
         SceneManager.LoadScene("SeleccionNivel");
     }
 
     public void Ajustes()
     {
+        AudioManager.Clic();
         SceneManager.LoadScene("Ajustes");
     }
 
     public void Salir()
     {
+        AudioManager.Clic();
         Application.Quit();
 
 #if UNITY_EDITOR
