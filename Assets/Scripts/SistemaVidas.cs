@@ -12,6 +12,7 @@ public class SistemaVidas : MonoBehaviour
     private bool procesandoMuerte;
 
     public int VidasActuales => vidasActuales;
+    public int VidasMaximas => vidasMaximas;
 
     private void Awake()
     {
@@ -22,6 +23,7 @@ public class SistemaVidas : MonoBehaviour
         }
 
         Instancia = this;
+
         vidasMaximas = Mathf.Max(1, vidasMaximas);
         vidasActuales = vidasMaximas;
     }
@@ -36,8 +38,14 @@ public class SistemaVidas : MonoBehaviour
 
         Debug.Log("Vidas restantes: " + vidasActuales);
 
-        // Devuelve true si se acabaron las vidas.
         return vidasActuales <= 0;
+    }
+
+    public void RestaurarVidas()
+    {
+        vidasActuales = vidasMaximas;
+
+        Debug.Log("Vidas restauradas: " + vidasActuales);
     }
 
     public void FinalizarMuerte()

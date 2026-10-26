@@ -34,7 +34,6 @@ public class ObjetoMortal : MonoBehaviour
     {
         muriendo = true;
 
-        // Descontar una vida.
         SistemaVidas sistema = SistemaVidas.Instancia;
         bool gameOver = false;
 
@@ -44,21 +43,17 @@ public class ObjetoMortal : MonoBehaviour
         }
         else
         {
-            Debug.LogError(
-                "No existe SistemaVidas en la escena."
-            );
+            Debug.LogError("No existe SistemaVidas en la escena.");
         }
 
         Rigidbody2D rb = jugador.GetComponent<Rigidbody2D>();
 
-        // Detener al jugador.
         if (rb != null)
         {
             rb.linearVelocity = Vector2.zero;
             rb.simulated = false;
         }
 
-        // Crear efecto de particulas.
         if (efectoMuerte != null)
         {
             Instantiate(
@@ -68,10 +63,8 @@ public class ObjetoMortal : MonoBehaviour
             );
         }
 
-        // Guardar el tamaño original.
         Vector3 escalaInicial = jugador.transform.localScale;
 
-        // Hacer desaparecer al jugador.
         float tiempo = 0f;
 
         while (tiempo < duracionMuerte)
@@ -93,38 +86,44 @@ public class ObjetoMortal : MonoBehaviour
 
         jugador.transform.localScale = Vector3.zero;
 
-        // Esperar antes de reaparecer o ir a Game Over.
         yield return new WaitForSeconds(tiempoReaparicion);
 
-        // Si no quedan vidas, cargar Game Over.
+        // Si se acabaron las vidas, ir a GameOver.
         if (gameOver)
         {
             SceneManager.LoadScene("GameOver");
             yield break;
         }
 
-        // Buscar el punto inicial.
-        GameObject puntoInicio = GameObject.Find("PuntoInicio");
+        // Obtener el ultimo checkpoint o el punto inicial.
+        Vector3 posicionReaparicion;
 
-        if (puntoInicio != null)
+        if (CheckpointManager.Instancia != null)
         {
-            jugador.transform.position = puntoInicio.transform.position;
+            posicionReaparicion =
+                CheckpointManager.Instancia.ObtenerPosicionReaparicion();
         }
         else
         {
-            Debug.LogError(
-                "No se encontró el objeto PuntoInicio."
-            );
+            GameObject puntoInicio = GameObject.Find("PuntoInicio");
+
+            if (puntoInicio == null)
+            {
+                Debug.LogError("No se encontro PuntoInicio.");
+                yield break;
+            }
+
+            posicionReaparicion = puntoInicio.transform.position;
         }
 
-        // Restaurar el tamaño.
+        // Reaparecer al jugador.
+        jugador.transform.position = posicionReaparicion;
         jugador.transform.localScale = escalaInicial;
 
-        // Reactivar la fisica.
         if (rb != null)
         {
-            rb.simulated = true;
             rb.linearVelocity = Vector2.zero;
+            rb.simulated = true;
         }
 
         if (sistema != null)

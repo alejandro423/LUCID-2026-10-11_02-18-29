@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/JSAB.unity
     guid: 42ace7f672b75ff28be71fb4154ed483
   - enabled: 1
+    path: Assets/Scenes/Nivel 2.unity
+    guid: 0111f18927bec6947b44cdc1d83e8269
+  - enabled: 1
     path: Assets/Scenes/Juego.unity
     guid: bcff4dfaaa529ad4ba411c7259fae4aa
   - enabled: 1
