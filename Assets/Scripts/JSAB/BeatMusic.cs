@@ -15,6 +15,8 @@ public class BeatMusic : MonoBehaviour
     AudioSource source;
     double dspStart;
     int lastBeat = -1;
+    bool pausado;
+    double dspPausa;
 
     void Awake()
     {
@@ -29,6 +31,9 @@ public class BeatMusic : MonoBehaviour
 
     void Update()
     {
+        if (pausado)
+            return;
+
         BeatTime = (float)((AudioSettings.dspTime - dspStart) / SecondsPerBeat);
         int beat = Mathf.FloorToInt(BeatTime);
         if (beat >= 0 && beat != lastBeat)
@@ -36,6 +41,24 @@ public class BeatMusic : MonoBehaviour
             lastBeat = beat;
             OnBeat?.Invoke(beat);
         }
+    }
+
+    public void Pausar()
+    {
+        if (pausado)
+            return;
+
+        pausado = true;
+        dspPausa = AudioSettings.dspTime;
+    }
+
+    public void Reanudar()
+    {
+        if (!pausado)
+            return;
+
+        pausado = false;
+        dspStart += AudioSettings.dspTime - dspPausa;
     }
 
     public void RestartAt(float beat)
