@@ -48,6 +48,7 @@ public class HazardFactory : MonoBehaviour
         sr.sortingOrder = 6;
         var col = go.AddComponent<CircleCollider2D>();
         col.radius = 0.18f;
+        col.isTrigger = true;
         var bullet = go.AddComponent<Bullet>();
         bullet.velocity = direction.normalized * speed;
         bullet.lifeTime = 8f;
@@ -68,6 +69,7 @@ public class HazardFactory : MonoBehaviour
         go.transform.localScale = Vector3.one * scale;
         var box = go.AddComponent<BoxCollider2D>();
         box.size = boundsSize;
+        box.isTrigger = true;
         var bouncer = go.AddComponent<Bouncer>();
         bouncer.velocity = velocity;
         bouncer.boundX = Mathf.Max(1f, HalfWidth - size * 0.5f - 0.1f);
@@ -92,6 +94,7 @@ public class HazardFactory : MonoBehaviour
         go.transform.localScale = new Vector3(length / boundsSize.x, thickness / boundsSize.y, 1f);
         var box = go.AddComponent<BoxCollider2D>();
         box.size = boundsSize;
+        box.isTrigger = true;
         var beam = go.AddComponent<Beam>();
         beam.telegraphSeconds = telegraphSeconds;
         beam.solidSeconds = solidSeconds;

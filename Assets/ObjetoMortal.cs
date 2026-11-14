@@ -91,6 +91,12 @@ public class ObjetoMortal : MonoBehaviour
         // Si se acabaron las vidas, ir a GameOver.
         if (gameOver)
         {
+            PlayerPrefs.SetString(
+                "ultimoNivel",
+                SceneManager.GetActiveScene().name
+            );
+            PlayerPrefs.Save();
+
             SceneManager.LoadScene("GameOver");
             yield break;
         }

@@ -22,4 +22,10 @@ public class ControlSeleccionNivel : MonoBehaviour
         AudioManager.Clic();
         SceneManager.LoadScene("JSAB");
     }
+
+    public void AbrirNivel3()
+    {
+        AudioManager.Clic();
+        SceneManager.LoadScene("Nivel 3");
+    }
 }
